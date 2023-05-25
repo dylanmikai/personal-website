@@ -36,10 +36,14 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     color: #00ADB5;
 }
-.nav-link {
+.footer-link {
+    color: #EEEEEE;
+
+}
+#social-links .nav-link {
     color: #222831;
 }
-.nav-link:hover {
+#social-links .nav-link:hover {
     color: #EEEEEE;
 }
 
@@ -47,9 +51,21 @@ body {
     background-color: #EEEEEE;
 }
 
-#title {
-    background-color: #393E46;
-}
+
 div>h2>span {
     text-decoration: underline;
+}
+
+#contact .nav-link {
+    color: #EEEEEE;
+    font-size: small
+}
+
+#contact .nav-link:hover {
+    color: #00ADB5;
+}
+
+#contact p {
+    color: #EEEEEE;
+    font-size: xx-small;
 }
